@@ -73,7 +73,7 @@ Sub fullReminder()
     If Not IsEmpty(strbody) Then
         On Error Resume Next
         With OutMail
-            .To = "TEST@outlook.com"
+            .To = "test@outlook.com"
             .CC = ""
             .BCC = ""
             .Subject = "Things are due"
@@ -145,10 +145,10 @@ End Sub
     If Not IsEmpty(strbody) Then
         On Error Resume Next
         With OutMail
-            .To = "sguy@pulmonx.com"
+            .To = "test@outlook.com"
             .CC = ""
             .BCC = ""
-            .Subject = "Upcoming PM's"
+            .Subject = "Upcoming Projects Due"
             .Body = strbody
             .send
             .Display
